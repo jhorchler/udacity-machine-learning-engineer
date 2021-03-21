@@ -1,0 +1,28 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+flake8 = "*"
+yapf = "*"
+hiddenlayer = "*"
+graphviz = "*"
+
+[packages]
+torchvision = "*"
+numpy = "*"
+jupyter = "*"
+notebook = "*"
+matplotlib = "*"
+pandas = "*"
+openslide-python = "*"
+scipy = "*"
+h5py = "*"
+tqdm = "*"
+seaborn = "*"
+scikit-learn = "*"
+imgaug = "*"
+
+[requires]
+python_version = "3.7"
